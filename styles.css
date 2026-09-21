@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+nav,
+footer {
+  background-color: #d4f2f4;
+  color: #0b0848;
+  padding: 15px;
+  text-align: center;
+}
+
+nav a {
+  color: #0b0848;
+  margin: 0 15px;
+}
+
+#gioi-thieu {
+  background-color: #F3FDE8;
+  padding: 15px;
+}
+
+#lien-he {
+  background-image: url("background.png");
+  background-repeat: repeat;
+  text-align: center;
+  padding: 15px;
+}
+
+h1 {
+  color: #CAEDFF;
+}
+
+h2 {
+  color: #D8B4F8;
+}
+
+h3 {
+  color: #FFC7EA;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-size: 24px;
+  -webkit-text-stroke: 0.5px black;
+}
+
+.avatar {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 1px solid black;
+  padding: 8px;
+}
+
+#lien-he form {
+  display: inline-block;
+  text-align: left;
+}
+
+footer p {
+  margin: 0;
+}

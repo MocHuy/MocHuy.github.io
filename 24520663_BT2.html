@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Giới thiệu bản thân - Lai Mộc Huy</title>
+  <link rel="stylesheet" type="text/css" href="styles.css" />
+</head>
+<body>
+  <nav>
+    <a href="#gioi-thieu">Giới thiệu bản thân</a>
+    <a href="#lien-he">Gửi thông tin và liên hệ cùng tôi</a>
+  </nav>
+
+  <div id="gioi-thieu">
+    <h1>Giới thiệu bản thân</h1>
+
+    <img
+      class="avatar"
+      src="https://raw.githubusercontent.com/MocHuy/MocHuy.github.io/refs/heads/main/input/avatar.jpg"
+      alt="Ảnh đại diện"
+      width="150"
+      height="150"
+    />
+
+    <h2>Thông tin cơ bản</h2>
+    <ul>
+      <li>Tên: Lai Mộc Huy</li>
+      <li>Năm sinh: 2006</li>
+      <li>Chuyên ngành: Hệ thống thông tin</li>
+    </ul>
+
+    <h2>Sở thích</h2>
+
+    <h3>Món ăn</h3>
+    <ol>
+      <li>Thịt kho hột vịt</li>
+      <li>Gà chiên nước mắm</li>
+      <li>Đen đá không đường</li>
+    </ol>
+
+    <h3>Giải trí</h3>
+
+    <h4>Trò chơi</h4>
+    <ul>
+      <li>Genshin Impact</li>
+      <li>Minecraft</li>
+      <li>Liên Minh Huyền Thoại</li>
+    </ul>
+
+    <h4>Bài nhạc yêu thích</h4>
+    <ul>
+      <li>IDK - MCK</li>
+      <li>In Love - Low G, JustaTee</li>
+      <li>How Long - Charlie Puth</li>
+    </ul>
+
+    <h2>Mục tiêu của bản thân</h2>
+    <table>
+      <tr>
+        <th>Mục tiêu</th>
+        <th>Thời hạn</th>
+        <th>Hoàn thành</th>
+      </tr>
+      <tr>
+        <td>Học tốt lập trình Web</td>
+        <td>30/12/2026</td>
+        <td><input type="checkbox" /></td>
+      </tr>
+      <tr>
+        <td>Hoàn thành tốt chương trình đại học</td>
+        <td>30/06/2028</td>
+        <td><input type="checkbox" /></td>
+      </tr>
+      <tr>
+        <td>Kiếm được công việc phù hợp sau khi tốt nghiệp</td>
+        <td>31/12/2028</td>
+        <td><input type="checkbox" /></td>
+      </tr>
+    </table>
+  </div>
+
+  <div id="lien-he">
+    <h1>Gửi thông tin và giao lưu cùng tôi</h1>
+
+    <p>
+      Email:
+      <a href="mailto:laimochuy@gmail.com">laimochuy@gmail.com</a>
+    </p>
+    <p>
+      Facebook:
+      <a href="https://facebook.com/lmhuy2k6" target="_blank">Moc Huy</a>
+    </p>
+
+    <form>
+      <p>
+        <label for="fullname">Họ và tên:</label><br />
+        <input type="text" id="fullname" name="fullname" />
+      </p>
+
+      <p>
+        <label for="email">Email:</label><br />
+        <input type="email" id="email" name="email" />
+      </p>
+
+      <p>
+        <label for="message">Tin nhắn:</label><br />
+        <textarea id="message" name="message" rows="5" cols="40"></textarea>
+      </p>
+
+      <p>
+        Giới tính:<br />
+        <input type="radio" id="male" name="gender" value="Nam" />
+        <label for="male">Nam</label>
+        <input type="radio" id="female" name="gender" value="Nữ" />
+        <label for="female">Nữ</label>
+      </p>
+
+      <p>
+        Sở thích:<br />
+        <input type="checkbox" id="music" name="hobby" value="Nghe nhạc" />
+        <label for="music">Nghe nhạc</label>
+        <input type="checkbox" id="swim" name="hobby" value="Bơi lội" />
+        <label for="swim">Bơi lội</label>
+        <input type="checkbox" id="sea" name="hobby" value="Biển" />
+        <label for="sea">Biển</label>
+      </p>
+
+      <p>
+        <label for="major">Ngành:</label><br />
+        <select id="major" name="major">
+          <option value="HTTT">Hệ thống thông tin</option>
+          <option value="KHMT">Khoa học máy tính</option>
+          <option value="KTPM">Kỹ thuật phần mềm</option>
+          <option value="MMT">Mạng máy tính và truyền thông dữ liệu</option>
+        </select>
+      </p>
+
+      <input type="submit" value="Gửi" />
+    </form>
+  </div>
+
+  <footer>
+    <p>@2024 24520663 Lai Mộc Huy</p>
+  </footer>
+</body>
+</html>
