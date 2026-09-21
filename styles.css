@@ -16,28 +16,15 @@ nav a {
   margin: 0 15px;
 }
 
-#gioi-thieu {
-  background-color: #F3FDE8;
-  padding: 15px;
+.intro-section {
+  background-color: #f3fde8;
+  padding: 20px;
 }
 
-#lien-he {
-  background-image: url("background.png");
+.contact-section {
   background-repeat: repeat;
+  padding: 20px;
   text-align: center;
-  padding: 15px;
-}
-
-h1 {
-  color: #CAEDFF;
-}
-
-h2 {
-  color: #D8B4F8;
-}
-
-h3 {
-  color: #FFC7EA;
 }
 
 h1,
@@ -48,6 +35,18 @@ h4 {
   -webkit-text-stroke: 0.5px black;
 }
 
+h1 {
+  color: #caedff;
+}
+
+h2 {
+  color: #d8b4f8;
+}
+
+h3 {
+  color: #ffc7ea;
+}
+
 .avatar {
   display: block;
   margin-left: auto;
@@ -56,6 +55,7 @@ h4 {
 
 table {
   border-collapse: collapse;
+  margin-top: 10px;
 }
 
 th,
@@ -64,9 +64,14 @@ td {
   padding: 8px;
 }
 
-#lien-he form {
+.contact-section form {
   display: inline-block;
   text-align: left;
+  margin-top: 10px;
+}
+
+.contact-section a {
+  color: #1877f2;
 }
 
 footer p {
